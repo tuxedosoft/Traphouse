@@ -1,6 +1,6 @@
-# Microblog
+# Traphouse Tumblelog/Microblog
 
-A modern, lightweight microblogging platform built with Next.js, TypeScript, and SQLite. Share your thoughts with the world through a simple, elegant interface.
+A modern, lightweight tumbleloggin/microblogging platform built with Next.js, TypeScript, and SQLite. Share your thoughts with the world through a simple, elegant interface.
 
 ## 🚀 Features
 
