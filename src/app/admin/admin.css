@@ -1,0 +1,114 @@
+/* Admin Dashboard Styles */
+
+.admin-table-container {
+  display: block;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-table th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+  color: #495057;
+  background-color: #f8f9fa;
+}
+
+.admin-table td {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.admin-table .content-cell {
+  max-width: 400px;
+  word-wrap: break-word;
+}
+
+.admin-table .date-cell {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.admin-table .actions-cell {
+  text-align: center;
+}
+
+.admin-mobile-cards {
+  display: none;
+}
+
+.admin-card {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #dee2e6;
+}
+
+.admin-card-content {
+  margin-bottom: 10px;
+}
+
+.admin-card-content p {
+  margin: 0 0 8px 0;
+  line-height: 1.5;
+}
+
+.admin-card-date {
+  color: #6c757d;
+  font-size: 12px;
+}
+
+.admin-card-actions {
+  text-align: right;
+}
+
+.delete-btn {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.delete-btn:hover:not(:disabled) {
+  background-color: #c82333;
+}
+
+.no-posts-message {
+  text-align: center;
+  padding: 40px;
+  color: #6c757d;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-table-container {
+    display: none;
+  }
+  
+  .admin-mobile-cards {
+    display: block;
+  }
+} 
