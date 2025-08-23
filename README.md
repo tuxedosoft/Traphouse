@@ -2,6 +2,8 @@
 
 A modern, lightweight tumbleloggin/microblogging platform built with Next.js, TypeScript, and SQLite. Share your thoughts with the world through a simple, elegant interface.
 
+![Screenshot of Traphouse's homepage](screenshot.png)
+
 ## 🚀 Features
 
 - **Simple Posting**: Create and share posts with a clean, minimal interface
