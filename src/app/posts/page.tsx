@@ -6,6 +6,7 @@ import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
 import DynamicTitle from '../../components/DynamicTitle';
 import ThemeToggle from '../../components/ThemeToggle';
+import PostContent from '../../components/PostContent';
 
 interface Post {
   id: string;
@@ -230,12 +231,7 @@ export default function PostsPage({ pageTitle = 'All Posts' }: { pageTitle?: str
                     e.currentTarget.style.transform = 'translateY(0)';
                     e.currentTarget.style.boxShadow = 'var(--shadow)';
                   }}>
-                    <p style={{ 
-                      margin: '0 0 12px 0', 
-                      color: 'var(--text-primary)', 
-                      lineHeight: '1.6',
-                      fontSize: '16px'
-                    }}>{post.content}</p>
+                    <PostContent content={post.content} />
                     <small style={{ 
                       color: 'var(--text-muted)', 
                       fontSize: '14px', 
